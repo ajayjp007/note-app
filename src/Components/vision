@@ -1,0 +1,14 @@
+if status === completed? then text decoration = slashed
+should remove the task if the eraser is clicked
+setup search bar to seach for tasks
+the database structure should be 
+
+
+
+     should get username name and password from the values entered in the signup page 
+          username -- password
+                     tasks: 
+                     birthdays:
+                     familyevents:
+                     other things:
+

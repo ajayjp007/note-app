@@ -1,0 +1,131 @@
+.main {
+  background-color: #a3c1ad;
+  min-height: 940px;
+  flex: 1;
+}
+.heading-login {
+  text-align: left;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  font-size: 3em;
+  font-family: "Reenie Beanie", cursive;
+  margin-top: 0em;
+}
+.right-half {
+  background-color: #e1ebee;
+  flex: 1;
+  text-align: center;
+  padding-top: 200px;
+}
+.new-here {
+  font-size: 70px;
+  font-weight: 600;
+}
+.split-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.login-container {
+  display: grid;
+  justify-content: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+
+.input-login {
+  height: 50px;
+  font-size: 15px;
+  border: 0px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  color: black;
+  height: 30px;
+  width: 600px;
+  background-color: #e1ebee;
+}
+.input-login:focus {
+  outline: none;
+}
+.btn-login {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  border: 0px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.right-arrow-login {
+  width: 30px;
+  margin-left: 20px;
+}
+.btn-login:hover {
+  justify-content: space-around;
+  background-color: yellow;
+}
+#logo {
+  width: 30px;
+}
+.sign-up-login {
+  font-size: 20px;
+}
+.some-para {
+  text-align: center;
+  margin-top: 240px;
+  font-size: 50px;
+}
+.icon-login-container {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 10px;
+  margin-right: 300px;
+  justify-content: space-around;
+}
+.social-media-icons {
+  width: 40px;
+  cursor: pointer;
+}
+.social-media-icons:hover {
+  transform: scale(1.2, 1.2);
+}
+.social-media-links {
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+  margin-top: 40px;
+  font-weight: 400;
+}
+.signup-btn-login {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 50px;
+  align-items: center;
+  text-transform: uppercase;
+  border: 0px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.signup-btn-login:hover {
+  background-color: yellow;
+}
+.new-here-icon{
+  width: 80px;
+}

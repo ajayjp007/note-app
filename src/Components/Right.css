@@ -1,0 +1,106 @@
+.right-container {
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.today {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+}
+.user-icon-right {
+  width: 30px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.new-task-container {
+  margin-left: 60px;
+  margin-top: 10px;
+  background-color: #a3c1ad;
+  max-width: 1400px;
+  padding: 10px 20px 10px 40px;
+  border: 2px solid #a3c1ad;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#empty-container-text {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.add-new-task {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+.add-icon-right {
+  width: 30px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.add-icon-right:hover {
+  animation: slowmoving 0.3s linear 1;
+}
+.input-newtask {
+  border: none;
+  font-family: "Reenie Beanie", cursive;
+  width: 500px;
+  font-size: 35px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #a3c1ad;
+  background-color: white;
+}
+.input-newtask:focus {
+  outline: none;
+}
+.Calendar-btn {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  background-color: #a3c1ad;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 650px;
+  letter-spacing: 1px;
+}
+.Calendar-btn:hover {
+  background-color: #e1ebee;
+}
+.icon-right-container {
+  padding-top: 30px;
+}
+#calendar-icon{
+  width: 20px;
+  margin-right: 10px;
+}
+.task-line{
+  display: grid ;
+}
+#settings{
+  width: 30px;
+  cursor: pointer;
+}
+.add-task-btn {
+  width: 200px;
+  background-color: #a3c1ad;
+  border: none;
+  margin-left: 20px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 15px;
+  height: 50px;
+}
+.add-task-btn:hover{
+  background-color: #e1ebee;
+}

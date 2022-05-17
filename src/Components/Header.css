@@ -1,0 +1,42 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #A3C1AD;
+}
+.logo-container{
+    display: flex;
+    padding-top: 5px;
+    cursor: pointer;
+    align-items: center;
+    height: 20px;
+}
+.app-name-left{
+    font-family: "Reenie Beanie", cursive;
+}
+.search-bar{
+    width: 500px;
+    border: 0px;
+    color: black;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    background-image: url("https://www.svgrepo.com/show/14071/search.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}
+.search-bar:focus{
+    outline: none;
+}
+#logo-header{
+    width: 30px;
+    cursor: pointer;
+}
+#logout-icon{
+    width: 30px;
+    cursor: pointer;
+}

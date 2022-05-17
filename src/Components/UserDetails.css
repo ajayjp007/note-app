@@ -1,0 +1,28 @@
+#user-image {
+  width: 30px;
+  margin-right: 20px;
+}
+.user-details-container {
+  background-color: #a3c1ad;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.user-details-container:hover {
+  color: white;
+}
+.status {
+  color: grey;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.status:hover {
+  color: #009E60;
+}
+#online-logo {
+  width: 10px;
+  margin-left: 5px;
+}
